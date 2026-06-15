@@ -26,7 +26,8 @@ En la Actividad 2, trabajamos en equipo utilizando Figma para crear un Moodboard
 **Valoración de la calidad:** Mi contribución aquí se centró en la selección de paletas de colores y tipografías que transmitieran correctamente la identidad del proyecto. Este ejercicio me ayudó a mejorar mi capacidad de justificar decisiones estéticas basándome en los principios de diseño y en las emociones que se desean evocar en el usuario final. Sobre todo en esta actividad aprendí a base de prueba y error, pues en grupo pudimos ir preguntando al profesor por su feedback, dándonos cuenta de que nos íbamos dejando muchos pasos del proceso de diseño atrás, pasos importantes en dicho proceso en los que aún no habíamos aprendido a fijarnos, pues sin tener la mentalidad de diseñadores, pensabamos que eran obvios o irrelevantes, cuando en realidad no lo eran.
 
 
-### 
+### 1.3. Eyetracking
+
 ### 1.3. Evaluación heurística con Heurio
 
 Para la Actividad 4, el objetivo era auditar la usabilidad de diferentes webs universitarias. En mi caso, realicé una inspección detallada de la página web de la Universidad de Granada (UGR) utilizando la extensión Heurio.

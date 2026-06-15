@@ -3,28 +3,30 @@ Repositorio dedicado a la realización del trabajo final de la asignatura de Dis
 
 # PARTE I: MI EXPERIENCIA UX
 
-Como estudiante de tercer año del Grado en Ingeniería Informática en la Universidad de Granada, concretamente en la especialidad de Ingeniería del Software, he ido definiendo claramente mi vocación a lo largo de la carrera. A diferencia de otros perfiles, no me apasiona en absoluto la programación a bajo nivel; por el contrario, mi verdadero interés y motivación residen en el diseño en su sentido más amplio: desde la arquitectura de software y el modelado UML, hasta el diseño de interfaces de usuario (UI) y los gráficos generados por ordenador. Esta asignatura de Diseño de Interfaces de Usuario (DIU) ha supuesto un punto de inflexión fundamental, ya que me ha proporcionado la base metodológica y los principios formales necesarios para estructurar mis conocimientos previos e intereses autodidactas en tecnologías frontend (HTML, CSS, JavaScript, React, Tailwind) y herramientas de prototipado como Figma.
+Como estudiante de tercer año del Grado en Ingeniería Informática en la Universidad de Granada, concretamente en la especialidad de Ingeniería del Software, he ido definiendo claramente mi vocación a lo largo de la carrera. Aunque en unos inicios estuve muy enfocado en la programación a bajo nivel, poco a poco he ido descubriendo que mi verdadero interés y motivación residen en el diseño en su sentido más amplio: desde la arquitectura de software y el modelado UML, hasta el diseño de interfaces de usuario (UI) y los gráficos generados por ordenador. Esta asignatura de Diseño de Interfaces de Usuario (DIU) ha resultado muy enriquecedora en el ámbito UI/UX, ya que me ha proporcionado la base y los principios necesarios para estructurar mis conocimientos previos e intereses autodidactas en tecnologías como React y herramientas de prototipado como Figma.
 
-A continuación, presento mi portfolio experiencial, donde detallo y valoro mis aportaciones en las distintas actividades de clase y prácticas de la asignatura, demostrando mi evolución hacia un enfoque de diseño centrado puramente en el usuario.
+A continuación, presento mi portfolio experiencial, donde detallo y valoro mis aportaciones en las distintas actividades de clase y prácticas de la asignatura.
 
 ---
 
 ## 1. Aportaciones y contribuciones en el contexto de actividades de clase
 
-Durante las sesiones teóricas y prácticas de la asignatura, he participado activamente en una serie de ejercicios diseñados para interiorizar los principios de la usabilidad y la experiencia de usuario. Mi implicación en estas tareas ha sido fundamental para desarrollar una mentalidad analítica y crítica frente a los diseños de interfaces actuales.
+Durante las sesiones teóricas y prácticas de la asignatura, he participado en una serie de ejercicios diseñados para comprender y poner en práctica los principios de la usabilidad y la experiencia de usuario. Mi implicación en esas tareas me ha ayudado a desarrollar una mentalidad analítica y crítica frente a los diseños de interfaces utilizando técnicas muy actuales y herramientas muy útiles e interesantes.
 
-### 1.1. Ejercicio Etnográfico: Observación en el entorno real
+### 1.1. Ejercicio Etnográfico: Observación de problemas presentes en el día a día
 
-En la Actividad 1, adoptamos el rol de "Gurb", un observador externo que analiza cómo las personas interactúan con artefactos y dispositivos en su vida cotidiana, prestando especial atención a las situaciones que generan frustración. Para este ejercicio, me desplacé a la parada del Metropolitano de Granada en marzo de 2026, entre las 07:00 y las 08:00 de la mañana.
+En la Actividad 1, adoptamos el rol de "Gurb", un observador externo que analiza cómo las personas interactúan con dispositivos en su vida cotidiana, prestando especial atención a las situaciones que generan frustración. Para este ejercicio, me desplacé a la parada del Metropolitano de Granada en marzo de 2026, entre las 07:00 y las 08:00 de la mañana.
 
-Mi observación se centró en un estudiante que necesitaba recargar su tarjeta de transporte con urgencia para no llegar tarde a clase. Pude documentar cómo la lentitud de la máquina física y la cola de usuarios generaban una situación de estrés y nerviosismo, llevando al usuario a plantearse subir sin pagar o perder el metro. Identifiqué como "factor crítico" la falta de flexibilidad en los métodos de pago y la limitación de tener que realizar la recarga exclusivamente de forma física. Como propuesta de mejora, planteé la necesidad imperiosa de una App Móvil que permita la recarga instantánea.
-**Valoración de la calidad:** Considero que esta aportación fue de gran relevancia cualitativa. Me permitió salir de la pantalla y comprender que la UX no se limita al software, sino que abarca la interacción física completa. Aprendí a identificar cuellos de botella en el mundo real y a proponer soluciones digitales centradas en aliviar la carga cognitiva y temporal del usuario.
+Mi observación se centró en un estudiante que necesitaba recargar su tarjeta de transporte con urgencia para no llegar tarde a clase. Pude documentar cómo la lentitud de la máquina física y la cola de usuarios generaban una situación de estrés y nerviosismo, llevando al usuario a plantearse subir sin pagar o perder el metro. Vi que la falta de flexibilidad en los métodos de pago y la limitación de tener que realizar la recarga exclusivamente de forma física suponía un factor crítico. Como propuesta de mejora, planteé la necesidad imperiosa de una app móvil que permitiese la recarga instantánea.
+**Valoración de la calidad:** Considero que esta aportación fue de gran relevancia cualitativa, pues me permitió salir de la pantalla y comprender que la UX no se limita al software, sino que abarca la interacción física completa. Aprendí a identificar cuellos de botella en el mundo real y a proponer soluciones digitales centradas en facilitar las actividades del usuario.
 
 ### 1.2. Moodboard y conceptualización visual
 
-En la Actividad 2, trabajamos en equipo utilizando Figma y FigJam para crear un tablero de inspiración (Moodboard). El objetivo era definir las bases visuales y emocionales de un proyecto antes de comenzar el diseño de la interfaz.
-**Valoración de la calidad:** Mi contribución aquí se centró en la selección de paletas de colores y tipografías que transmitieran correctamente la identidad del proyecto. Este ejercicio fortaleció mi capacidad para justificar decisiones estéticas basándome en los principios de diseño y en las emociones que se desean evocar en el usuario final, dejando de lado la pura intuición para aplicar un razonamiento fundamentado.
+En la Actividad 2, trabajamos en equipo utilizando Figma para crear un Moodboard. El objetivo era definir las bases visuales y emocionales de un proyecto antes de comenzar el diseño de la interfaz.
+**Valoración de la calidad:** Mi contribución aquí se centró en la selección de paletas de colores y tipografías que transmitieran correctamente la identidad del proyecto. Este ejercicio me ayudó a mejorar mi capacidad de justificar decisiones estéticas basándome en los principios de diseño y en las emociones que se desean evocar en el usuario final. Sobre todo en esta actividad aprendí a base de prueba y error, pues en grupo pudimos ir preguntando al profesor por su feedback, dándonos cuenta de que nos íbamos dejando muchos pasos del proceso de diseño atrás, pasos importantes en dicho proceso en los que aún no habíamos aprendido a fijarnos, pues sin tener la mentalidad de diseñadores, pensabamos que eran obvios o irrelevantes, cuando en realidad no lo eran.
 
+
+### 
 ### 1.3. Evaluación heurística con Heurio
 
 Para la Actividad 4, el objetivo era auditar la usabilidad de diferentes webs universitarias. En mi caso, realicé una inspección detallada de la página web de la Universidad de Granada (UGR) utilizando la extensión Heurio.

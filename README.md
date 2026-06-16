@@ -1,4 +1,4 @@
-<img width="927" height="889" alt="image" src="https://github.com/user-attachments/assets/bbeb07c0-36b4-49e4-8dbb-5c46352ccbda" /># Trabajo-final-DIU-2025-26-Portfolio-UX-y-resolucion-de-un-supuesto-practico
+# Trabajo-final-DIU-2025-26-Portfolio-UX-y-resolucion-de-un-supuesto-practico
 Repositorio dedicado a la realización del trabajo final de la asignatura de Diseño de Interfaces de Usuario, curso 2025/26: Portfolio UX y resolucion de un supuesto practico
 
 # PARTE I: MI EXPERIENCIA UX

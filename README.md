@@ -210,10 +210,13 @@ Para asegurar la accesibilidad ergonómica (uso con el pulgar), la navegación p
 
 * **Filtros Rápidos (Chips):** Botones en formato "píldora" para filtrar rápidamente por categorías esenciales: "Fruta", "Verdura", "Granel", "Novedades".
 * **Grid de Productos:** Uso de tarjetas (*Cards*) asimétricas para romper la monotonía visual.
+* **Carrito de la Compra menos discreto**: Queremos que se note cuando tenemos añadido algo al carrito y no tener que meternos en él para comprobar que el proceso de compra sigue su flujo normal, sin problemas.
 
 ![Mockup Pantalla Inicio](img/mockup-inicio.png)
 
 ![Mockup Pantalla Inicio](img/mockup-inicio2.png)
+
+![Mockup Pantalla Inicio](video-inicio/mockup-inicio-menu-fijo.webm)
 
 2. **Pantalla de Producto (información detallada):**
 * Al hacer clic sobre un producto de la pantalla de inicio, se abre una vista de detalle con una breve descripción del producto, fotografías del mismo, el tipo de cultivo y una mención al huerto de dónde provienen.

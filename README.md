@@ -111,83 +111,83 @@ A modo de autoevaluación, considero que mi progreso en el área de UI/UX a lo l
 
 ---
 
-# PARTE II: Caso de estudio y Propuesta de diseño ECO MERCADO UGR
+# PARTE II: Caso de estudio y propuesta de diseño ECO MERCADO UGR
 
-## a) Análisis Experto de Propuestas Existentes: Caso "Huerta Madrid"
+## a) Análisis de propuestas: Caso "Huerta Madrid"
 
-Para establecer una línea base que guíe el diseño del Ecomercado UGR, se ha realizado una auditoría UX detallada de la plataforma "Huerta Madrid" (`[https://www.nuestrashuertas.com/](https://www.nuestrashuertas.com/)`). El análisis se aborda respondiendo a las hipótesis y criterios de evaluación exigidos.
+Hemos escogido la propuesta "Huerta Madrid", a la cual se va a realizar una auditoría UX detallada de su plataforma (`[https://www.nuestrashuertas.com/](https://www.nuestrashuertas.com/)`).
 
-### 1. Hipótesis de Usuario: ¿Quiénes son y qué necesitan?
+### 1. Los usuarios: ¿Quiénes son y qué necesitan?
 
-El diseño de un servicio digital debe partir de la comprensión profunda de sus usuarios. Basándonos en la naturaleza de los mercados ecológicos, podemos definir los siguientes arquetipos y necesidades:
+Basándonos en la naturaleza de los mercados ecológicos, podemos definir los siguientes arquetipos y necesidades de nuestros usuarios:
 
-* **El Consumidor Consciente (Frecuente):** Persona de entre 25 y 55 años, con un alto interés en la sostenibilidad, la salud y el comercio local. Busca certidumbre sobre el origen geográfico de los productos, certificaciones ecológicas y apoyo a los agricultores de proximidad. Necesita una vía rápida para realizar pedidos recurrentes (cestas semanales) con el menor número de clics posible.
-* **El Explorador Ocasional (Nuevo Usuario):** Usuario atraído por la tendencia de la comida sana pero sin conocimientos profundos sobre estacionalidad. Busca información pedagógica ("¿qué verduras son de temporada ahora?") y necesita una navegación muy intuitiva que le guíe en su primera compra sin abrumarle con terminología agrícola compleja.
+* **El consumidor consciente (Frecuente):** Persona de entre 25 y 60 años, con un alto interés en la sostenibilidad, la salud y el comercio local. Busca conocer el origen geográfico de los productos, las certificaciones ecológicas y asegurar el apoyo a los agricultores de proximidad. Necesita una vía rápida para realizar pedidos recurrentes (por ejemplo, cestas semanales) con el menor número de clics posible.
+* **El explorador ocasional (Nuevo usuario):** Usuario atraído por la tendencia de la comida sana pero sin conocimientos profundos sobre estacionalidad. Busca información pedagógica ("¿qué verduras son de temporada ahora?") y necesita una navegación muy intuitiva que le guíe en su primera compra sin abrumarle con terminología agrícola compleja.
 
-### 2. El Factor Humano: Puntos Fuertes de la Propuesta
+### 2. El factor humano: Puntos fuertes de la propuesta
 
 Desde la perspectiva de la interacción humano-computadora (HCI) y el diseño emocional, la web analizada presenta ciertos aciertos que construyen confianza:
 
-* **Storytelling y Empatía:** El uso de fotografías reales de los huertos y los agricultores establece una conexión emocional directa. Esto reduce la "distancia digital" entre el productor y el consumidor, un factor humano crítico para justificar el valor (y a menudo el sobreprecio) del producto ecológico.
-* **Transparencia de Valores:** La declaración de intenciones sobre sostenibilidad y métodos de cultivo está visible, lo que satisface la necesidad psicológica del usuario de sentir que su compra tiene un impacto ético positivo.
+* **Storytelling y Empatía:** El uso de fotografías y vídeos reales de los huertos y los agricultores establece una conexión emocional directa. Esto reduce la "distancia digital" entre el productor y el consumidor, un factor humano crítico para justificar el valor del producto ecológico.
+* **Transparencia de Valores:** La declaración de intenciones sobre sostenibilidad y métodos de cultivo está visible, lo que satisface la necesidad psicológica del usuario de sentir que su compra tiene un impacto ético y medioambiental positivo.
 
-### 3. Evaluación Técnica de la Experiencia de Usuario (UX)
+### 3. Evaluación técnica de la experiencia de usuario (UX)
 
 A pesar de sus fortalezas emocionales, la plataforma presenta deficiencias objetivas al ser evaluada bajo las heurísticas de usabilidad de Nielsen y los estándares de accesibilidad:
 
-* **Prevención de Errores y Flexibilidad:** El sistema de selección de productos para cestas personalizadas carece de restricciones visuales claras. El usuario puede cometer errores al calcular el peso o el importe mínimo, dándose cuenta del fallo únicamente al intentar finalizar la compra (en la pantalla de *checkout*). Esto genera alta frustración y aumenta la tasa de abandono.
-* **Visibilidad del Estado del Sistema:** La retroalimentación (*feedback*) al realizar acciones críticas, como añadir un producto al carrito, es excesivamente sutil. No se emplean notificaciones flotantes (*toast notifications*) ni cambios de estado evidentes en el icono de la cesta, obligando al usuario a verificar manualmente si la acción se ha completado.
-* **Accesibilidad (WCAG 2.1):** Se identifican problemas severos de contraste visual. Textos descriptivos en tonos grises sobre fondos claros no alcanzan el ratio mínimo exigido de 4.5:1. Asimismo, la ausencia de etiquetas `ARIA` en botones dinámicos penaliza la experiencia de usuarios que dependen de lectores de pantalla.
-* **Adaptación a Dispositivos (Responsiveness):** En resoluciones móviles (*viewports* menores a 768px), el diseño sufre problemas estructurales. Las áreas de interacción táctil (*touch targets*) de los botones de paginación y filtros son inferiores a los 44x44 píxeles recomendados por las guías de diseño móvil, provocando errores de pulsación ("fat-finger syndrome").
+* **Prevención de errores y flexibilidad:** El sistema de selección de productos para cestas personalizadas carece de restricciones visuales claras. El usuario puede cometer errores al calcular el peso o el importe mínimo, dándose cuenta del fallo únicamente al intentar finalizar la compra (en la pantalla de *checkout*). Esto genera alta frustración y aumenta la tasa de abandono.
+* **Visibilidad del estado del sistema:** El feedback al realizar acciones críticas, como añadir un producto al carrito, es excesivamente sutil. No se emplean notificaciones flotantes ni cambios de estado evidentes en el icono de la cesta, obligando al usuario a verificar manualmente si la acción se ha completado.
+* **Accesibilidad (WAVE):** Se identifican problemas severos de contraste visual. Los textos descriptivos en tonos grises y claros sobre fondos a su vez claros o blancos, hacen que no resalten como se esperaría. Además, la ausencia de etiquetas `ARIA` en botones dinámicos, la ausencia en algunos casos de textos alternativos a imágenes y algunos botones y enlaces vacíos penaliza la experiencia de los usuarios, sobre todo de los que dependen de lectores de pantalla.
+* **Adaptación a Dispositivos (Responsiveness):** En resoluciones móviles (*viewports* menores a 768px), el diseño sufre problemas estructurales. Las áreas de interacción táctil de los botones de paginación y filtros son inferiores a los 44x44 píxeles recomendados por las guías de diseño móvil, provocando errores de pulsación ("fat-finger syndrome").
 
-### 4. Propuestas de (Re)diseño y Mejoras
+### 4. Propuestas de (re)diseño y mejoras
 
-Como experto, para elevar la calidad de esta plataforma a un estándar óptimo, plantearía las siguientes directrices de rediseño:
+Para aumentar la calidad de esta plataforma, plantearía las siguientes directrices de diseño:
 
-* **Reestructuración de la Arquitectura de la Información:** Implementaría un sistema de categorización semántica más claro, dividiendo el catálogo principal en "Cestas Prediseñadas" (para decisiones rápidas) y "Mercado a Granel" (para exploración detallada).
-* **Diseño UI de Alto Contraste y Affordance:** Rediseñaría los botones de llamada a la acción (CTAs) dotándolos de colores primarios vibrantes que destaquen sobre la paleta natural de la web. Mejoraría la *affordance* (la cualidad de un objeto que indica cómo debe ser usado) añadiendo iconos universales junto al texto de los botones.
-* **Optimización del Flujo de Checkout:** Consolidaría el proceso de pago en un diseño de "Acordeón" en una sola página (*One-Page Checkout*). Esto permite al usuario ver todos los pasos (Datos, Envío/Recogida, Pago) sin recargar la página, reduciendo drásticamente la carga cognitiva.
-* **Implementación de Filtros Inteligentes:** Añadiría una barra lateral de filtros dinámicos que permita ordenar los productos por "Recién recolectado", "100% Ecológico" o "Productor a menos de 50km", empoderando al usuario para que encuentre exactamente lo que necesita en segundos.
+* **Reestructuración de la estructura de la información:** Implementaría un sistema de categorización semántica más claro, dividiendo el catálogo principal en "Cestas Prediseñadas" (para decisiones rápidas) y "Mercado a Granel" (para una exploración más detallada).
+* **Diseño UI de mayor contraste y affordance:** Rediseñaría los botones dotándolos de colores primarios vibrantes que destaquen sobre la paleta natural de la web. Mejoraría la *affordance* (la cualidad de un objeto que indica cómo debe ser usado) añadiendo iconos universales junto al texto de los botones.
+* **Optimización del flujo de checkout:** Consolidaría el proceso de pago en un diseño de una sola página. Esto permite al usuario ver todos los pasos (datos, envío y recogida, pago) sin recargar la página, reduciendo drásticamente la carga cognitiva.
+* **Implementación de filtros inteligentes:** Añadiría una barra lateral de filtros dinámicos que permita ordenar los productos por "Recién recolectado", "100% Ecológico" o "Productor a menos de 50km", ayudando al usuario a que encuentre exactamente lo que necesita en segundos.
 
 ---
 
 ## b) Conclusiones, "Insights" y Propuesta de Valor: ECOMERCADO UGR
 
-A partir del análisis de iniciativas externas y de la información contextual proporcionada sobre las ediciones del Ecomercado de la UGR (celebradas en espacios como Paseos Universitarios y Fuentenueva, con un enfoque en productores locales y comercio justo), se extraen conclusiones determinantes para el diseño de una solución digital óptima.
+A partir del análisis de iniciativas externas y de la información proporcionada sobre las ediciones del Ecomercado de la UGR (con un enfoque en los productores locales y el comercio justo), extraemos conclusiones para el diseño de una solución óptima.
 
 ### 1. Insights Extraídos del Caso de Estudio
 
-El diseño no debe limitarse a ser un "catálogo online", sino una herramienta que resuelva las fricciones logísticas y comunicativas de un evento efímero dentro de un campus universitario.
+El diseño no debe limitarse a ser un "catálogo online", sino una herramienta que resuelva las fricciones logísticas y comunicativas de un evento temporal dentro de un campus universitario.
 
-* **Insight 1: La barrera del tiempo y la logística (Conveniencia vs. Conciencia).**
-* *Observación:* El público objetivo (PDI, PAS y estudiantes de la UGR) tiene horarios rígidos marcados por clases y jornadas laborales. Aunque existe la voluntad de consumir productos ecológicos, la falta de tiempo para explorar físicamente los puestos es un "pain point" (punto de dolor) crítico.
+* **Insight 1: La barrera del tiempo y la logística.**
+* *Observación:* El público objetivo (PDI, PAS y estudiantes de la UGR) tiene horarios rígidos marcados por clases y jornadas laborales. Aunque existe la voluntad de consumir productos ecológicos, la falta de tiempo para explorar físicamente los puestos es un punto crítico.
 * *Conclusión:* La plataforma debe centrarse en la **compra anticipada (pre-order)**. El usuario debe poder planificar su cesta durante la semana y utilizar el mercado físico únicamente como punto de recogida rápida (*Click & Collect*).
 
 
-* **Insight 2: Trazabilidad y "Storytelling" como motor de conversión.**
+* **Insight 2: Trazabilidad y "storytelling".**
 * *Observación:* El valor diferencial del Ecomercado UGR frente a un supermercado convencional es el contacto directo con el productor local y la garantía de comercio justo.
 
 
-* *Conclusión:* La interfaz debe visibilizar el origen. No basta con mostrar un tomate; se debe mostrar la finca y el agricultor. La transparencia es la métrica principal de confianza en este modelo de negocio.
+* *Conclusión:* La interfaz debe visibilizar el origen. No basta con mostrar un tomate; se debe mostrar la finca y el agricultor. La transparencia transmite mayor confianza en este modelo de negocio.
 
 
 * **Insight 3: La naturaleza episódica del evento.**
-* *Observación:* El Ecomercado no es un establecimiento permanente, sino un evento periódico (ej. "nueva edición el 28 de mayo").
+* *Observación:* El Ecomercado no es un establecimiento permanente, sino un evento periódico.
 
 
-* *Conclusión:* El diseño de la pantalla de inicio (*Home*) debe generar expectación y urgencia (FOMO), utilizando temporizadores o indicadores de "Próximo mercado en X días" y gestionando un inventario que se cierra horas antes del evento.
+* *Conclusión:* El diseño de la pantalla de inicio debe generar expectación y urgencia (FOMO), utilizando temporizadores o indicadores de "Próximo mercado en X días" y gestionando un inventario que se cierra horas antes del evento.
 
 
 
 ### 2. Propuesta de Valor
 
-Basado en los *insights* anteriores, la propuesta de valor para la plataforma digital del ECOMERCADO UGR se define de la siguiente manera:
+Basado en los *insights* anteriores, definimos la propuesta de valor para la plataforma digital del ECOMERCADO UGR de la siguiente manera:
 
-> *"Una plataforma web móvil (Mobile-First) que conecta directamente a la comunidad universitaria con los productores ecológicos locales, permitiendo la reserva anticipada de productos de temporada y garantizando una recogida sin fricciones en el campus, a la vez que educa y promueve la transparencia del comercio justo."*
+> *"Una plataforma web móvil (Mobile-First) que conecta directamente a la comunidad universitaria con los productores ecológicos locales, permitiendo la reserva anticipada de productos de temporada y garantizando una recogida sin obstáculos en el campus, a la vez que educa y promueve la transparencia del comercio justo."*
 
 ### 3. Planteamiento del Boceto (Propuesta de Diseño UI/UX)
 
-Para materializar esta propuesta de valor, se plantea una aplicación web estructurada bajo una estética minimalista, limpia y altamente funcional (alineada con buenas prácticas de diseño de interfaces modernas), orientada a minimizar la carga cognitiva.
+Para materializar esta propuesta de valor, se plantea una aplicación web estructurada bajo una estética minimalista, limpia y altamente funcional, orientada a minimizar la carga cognitiva.
 
 **Estructura de Navegación Principal (Bottom Navigation Bar):**
 Para asegurar la accesibilidad ergonómica (uso con el pulgar), la navegación principal se situará en la parte inferior de la pantalla con cuatro secciones: *Mercado (Inicio)*, *Productores*, *Mi Cesta* y *Mi Perfil/Recogidas*.
@@ -207,47 +207,47 @@ Para asegurar la accesibilidad ergonómica (uso con el pulgar), la navegación p
 
 
 3. **Flujo de Checkout y Recogida (Fricción Cero):**
-* **Autenticación Integrada:** Inicio de sesión rápido mediante el Sistema de Identificación de la UGR (Single Sign-On).
-* **Selector de Recogida:** Un modal claro donde el usuario selecciona su franja horaria de recogida para evitar aglomeraciones en los puestos durante los descansos de clases.
+* **Autenticación Integrada:** Inicio de sesión rápido mediante el Sistema de Identificación de la UGR.
+* **Selector de Recogida:** Un modal donde el usuario selecciona su franja horaria de recogida para evitar aglomeraciones en los puestos durante los descansos de clases.
 
 ---
 
 ## c) Análisis Crítico y Autoevaluación: Prácticas Académicas vs. Caso Real
 
-A modo de conclusión, resulta fundamental realizar un ejercicio de metacognición para evaluar qué metodologías aplicadas en el diseño de mis prácticas universitarias (el caso de estudio "Punto Café") son directamente transferibles al diseño del "Ecomercado UGR", y qué aspectos requerirían un enfoque diferente o más profundo al tratarse de un entorno real.
+A modo de conclusión, resulta fundamental evaluar qué metodologías aplicadas en el diseño de mis prácticas universitarias (el caso de estudio "Punto Café") son directamente transferibles al diseño del "Ecomercado UGR", y qué aspectos requerirían un enfoque diferente o más profundo al tratarse de un entorno real.
 
-Esta comparativa sirve como termómetro para medir el grado de madurez adquirido en la disciplina del Diseño de Interfaces y la Experiencia de Usuario (UI/UX).
+Esta comparativa sirve para medir el grado de madurez adquirido en el diseño de interfaces y la experiencia de usuario (UI/UX).
 
-### 1. Metodologías aplicadas con éxito transferibles al Caso Real
+### 1. Metodologías aplicadas con éxito transferibles al caso real
 
-Gran parte del proceso estructurado en las prácticas ha demostrado ser una base metodológica sólida, aplicable casi milimétricamente al caso del Ecomercado UGR:
+Gran parte del proceso estructurado en las prácticas ha demostrado ser una base metodológica sólida, muy aplicable al caso del Ecomercado UGR:
 
-* **Investigación de Usuarios (Desk & User Research):** En "Punto Café", la creación de *Personas* (como Álvaro e Inés) y el mapeo de sus trayectorias (*User Journey Maps*) fueron vitales para entender las diferencias entre una decisión rápida y una compra planificada. Este mismo marco de trabajo empático es el que nos ha permitido definir, en el Ecomercado UGR, los perfiles del "Consumidor Consciente" y el "Explorador Ocasional", garantizando que las decisiones de diseño no se basen en suposiciones, sino en necesidades documentadas.
-
-
-* **Sistematización Visual (Design Systems & Guidelines):** Durante las prácticas, la creación de un *Moodboard*, *Wireframes* y unas *Guidelines* claras (uso de tarjetas de contenido, barras unificadas y botones principales destacados) garantizó la coherencia de la interfaz. En el desarrollo del Ecomercado, he propuesto exactamente este enfoque: un diseño modular basado en componentes reutilizables (como las *Cards* de producto) que agilizan el desarrollo y mejoran la curva de aprendizaje del usuario final.
+* **Investigación de Usuarios (User Research):** En "Punto Café", la creación de *Personas* (como Álvaro e Inés) y el mapeo de sus trayectorias (*User Journey Maps*) nos sirvieron para entender las diferencias entre una decisión rápida y una compra planificada. Este mismo marco de trabajo es el que nos ha permitido definir, en el Ecomercado UGR, los perfiles del "Consumidor Consciente" y el "Explorador Ocasional", garantizando que las decisiones de diseño se basen en necesidades reales.
 
 
-* **Evaluación Empírica (Testing):** La validación de la interfaz mediante A/B Testing con la herramienta Maze y las encuestas SUS (*System Usability Scale*) aplicadas en las prácticas, representan el estándar de la industria. Si desarrolláramos el prototipo del Ecomercado UGR, someteríamos el "flujo de reserva y recogida" exactamente a estas mismas pruebas para medir métricas de éxito, tasas de error y tiempos de finalización antes de programar una sola línea de código en React.
+* **Sistematización visual (Design systems & Guidelines):** Durante las prácticas, la creación de un *Moodboard*, *Wireframes* y unas *Guidelines* claras (uso de tarjetas de contenido, barras unificadas y botones principales destacados) garantizó la coherencia de la interfaz. En el desarrollo del Ecomercado, he propuesto exactamente este enfoque: un diseño modular basado en componentes reutilizables (como las *Cards* de producto) que agilizan el desarrollo.
 
 
-
-### 2. Gaps y áreas de mejora: Lo que faltó por hacer de cara a un escenario real
-
-Analizando el salto cualitativo entre un proyecto de laboratorio ("Punto Café") y un despliegue real en una institución pública ("Ecomercado UGR"), identifico varias áreas donde el análisis debería ser mucho más exhaustivo:
-
-* **El "Backend" de la Experiencia (UX para Administradores):** En nuestras prácticas nos centramos de forma casi exclusiva en el cliente final (el comprador de café). Sin embargo, en el Ecomercado UGR, el sistema depende de los productores agrícolas. Me ha faltado diseñar flujos de tareas (*Task Flows*) y un *dashboard* específico para que los agricultores, que no necesariamente tienen un alto grado de alfabetización digital, puedan subir sus productos de temporada, actualizar el stock y gestionar los pedidos con facilidad. Un sistema real fracasa si la herramienta del proveedor es inusable.
-
-
-* **Auditoría de Accesibilidad Rigurosa:** Aunque en teoría vimos herramientas como WAVE y Funkify (Actividad 5), en el *Usability Report* de las prácticas priorizamos métricas de navegación frente a la accesibilidad estricta. Al ser el Ecomercado un servicio ligado a la Universidad de Granada (entidad pública), el diseño debe cumplir obligatoriamente con el nivel AA de las pautas WCAG 2.1 (contraste cromático, navegación por teclado, soporte para lectores de pantalla mediante ARIA). Esto exigiría una capa de revisión técnica mucho más profunda que la realizada en clase.
-
-
-* **Testing en Contexto Real (Guerrilla Testing / Etnografía Aplicada):** En las prácticas, pruebas como el *Eye Tracking* se realizaron en un entorno controlado frente a un ordenador. Para una App móvil diseñada para utilizarse "en tránsito" por el campus universitario (entre clases, con prisas, bajo la luz del sol), sería imperativo salir del laboratorio. Deberíamos haber aplicado las técnicas etnográficas aprendidas en la Actividad 1 (el observador "Gurb") para testear el prototipo directamente en el Paseo Universitario o Fuentenueva durante las jornadas del Ecomercado, observando cómo factores ambientales afectan a la usabilidad de la interfaz en dispositivos móviles.
+* **Evaluación empírica (Testing):** La validación de la interfaz mediante A/B Testing con la herramienta Maze y las encuestas SUS (*System Usability Scale*) aplicadas en las prácticas, representan el estándar de la industria. Si desarrolláramos el prototipo del Ecomercado UGR, someteríamos el "flujo de reserva y recogida" exactamente a estas mismas pruebas para medir métricas de éxito, tasas de error y tiempos de finalización antes de pasar a la implementación.
 
 
 
-### 3. Veredicto y Autoevaluación Final
+### 2. Áreas de mejora
 
-El trabajo desarrollado a lo largo de esta asignatura demuestra que la distancia entre los ejercicios de laboratorio y el diseño de un caso real se ha acortado drásticamente. He adquirido la capacidad no solo de "dibujar pantallas bonitas", sino de argumentar, medir y justificar cada píxel basándome en factores humanos, modelos de negocio y métricas de usabilidad.
+Analizando el salto entre un proyecto de prácticas ("Punto Café") y una página real en una institución pública ("Ecomercado UGR"), identifico varias áreas donde el análisis debería ser mucho más exhaustivo:
+
+* **El "backend" de la experiencia (UX para administradores):** En nuestras prácticas nos centramos de forma casi exclusiva en el cliente final (el comprador de café). Sin embargo, en el Ecomercado UGR, el sistema depende de los productores agrícolas. Me ha faltado diseñar flujos de tareas (*Task Flows*) y un *dashboard* específico para que los agricultores, que no necesariamente tienen un alto grado de alfabetización digital, puedan subir sus productos de temporada, actualizar el stock y gestionar los pedidos con facilidad. Un sistema real fracasaría probablemente si la herramienta del proveedor es difícil de usar.
+
+
+* **Auditoría de accesibilidad:** Aunque en teoría vimos herramientas como WAVE y Funkify (Actividad 5), en el *Usability Report* de las prácticas priorizamos métricas de navegación frente a la accesibilidad estricta. Al ser el Ecomercado un servicio ligado a la Universidad de Granada (entidad pública), el diseño debe cumplir obligatoriamente con el nivel AA de las pautas WCAG 2.1 (contraste cromático, navegación por teclado, soporte para lectores de pantalla mediante ARIA). Esto exigiría una capa de revisión técnica mucho más profunda que la realizada en clase.
+
+
+* **Testing en contexto real (Etnografía):** En las prácticas, pruebas como el *Eye Tracking* se realizaron en un entorno controlado frente a un ordenador. Para una app móvil diseñada para utilizarse "en tránsito" por el campus universitario (entre clases, con prisas, bajo la luz del sol), sería imperativo salir del laboratorio. Deberíamos haber aplicado las técnicas etnográficas aprendidas en la actividad de la etnografía (actividad 1) para probar el prototipo directamente en el Paseo Universitario o Fuentenueva durante las jornadas del Ecomercado, observando cómo factores ambientales afectan a la usabilidad de la interfaz en dispositivos móviles.
+
+
+
+### 3. Autoevaluación Final
+
+El trabajo desarrollado a lo largo de esta asignatura demuestra que con los ejercicios de prácticas, me he acercado un poquito más a lo que sería el diseño de un caso real. He adquirido la capacidad no solo de "dibujar pantallas bonitas", sino de argumentar, medir y justificar cada decisión de diseño basándome en factores humanos, modelos de negocio y factores de usabilidad.
 
 Si bien un proyecto real como el Ecomercado UGR requiere un despliegue mayor en términos de logística, perfiles de administración y cumplimiento legal de accesibilidad, los cimientos metodológicos (análisis competitivo, ideación estructurada, prototipado iterativo y evaluación con usuarios) están completamente afianzados y listos para ser aplicados en un entorno profesional.

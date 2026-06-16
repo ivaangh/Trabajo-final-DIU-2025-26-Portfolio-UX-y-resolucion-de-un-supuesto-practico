@@ -231,7 +231,7 @@ Para asegurar la accesibilidad ergonómica (uso con el pulgar), la navegación p
 
 ---
 
-## c) Análisis Crítico y Autoevaluación: Prácticas Académicas vs. Caso Real
+## c) Análisis Crítico y Autoevaluación: Prácticas de clase y Caso Real
 
 A modo de conclusión, resulta fundamental evaluar qué metodologías aplicadas en el diseño de mis prácticas universitarias (el caso de estudio "Punto Café") son directamente transferibles al diseño del "Ecomercado UGR", y qué aspectos requerirían un enfoque diferente o más profundo al tratarse de un entorno real.
 

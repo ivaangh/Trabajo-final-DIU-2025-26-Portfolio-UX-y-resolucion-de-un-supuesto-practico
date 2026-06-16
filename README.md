@@ -211,15 +211,20 @@ Para asegurar la accesibilidad ergonómica (uso con el pulgar), la navegación p
 * **Filtros Rápidos (Chips):** Botones en formato "píldora" para filtrar rápidamente por categorías esenciales: "Fruta", "Verdura", "Granel", "Novedades".
 * **Grid de Productos:** Uso de tarjetas (*Cards*) asimétricas para romper la monotonía visual.
 
-![Mockup Pantalla Inicio](img/mockup-inicio.png) (mockup-inicio.png)
+![Mockup Pantalla Inicio](img/mockup-inicio.png)
 
-2. **Pantalla de Transparencia (Los Productores):**
-* Un directorio visual de las huertas participantes. Al hacer clic, se abre una vista de detalle con una breve bio del agricultor, fotografías del entorno de cultivo y los productos exactos que ofrece en esta edición.
+![Mockup Pantalla Inicio](img/mockup-inicio2.png)
 
+2. **Pantalla de Producto (información detallada):**
+* Al hacer clic sobre un producto de la pantalla de inicio, se abre una vista de detalle con una breve descripción del producto, fotografías del mismo, el tipo de cultivo y una mención al huerto de dónde provienen.
+
+![Mockup Pantalla Inicio](img/mockup-producto.png)
 
 3. **Flujo de Checkout y Recogida (Fricción Cero):**
 * **Autenticación Integrada:** Inicio de sesión rápido mediante el Sistema de Identificación de la UGR.
 * **Selector de Recogida:** Un modal donde el usuario selecciona su franja horaria de recogida para evitar aglomeraciones en los puestos durante los descansos de clases.
+
+![Mockup Pantalla Inicio](img/mockup-checkout.png)
 
 ---
 

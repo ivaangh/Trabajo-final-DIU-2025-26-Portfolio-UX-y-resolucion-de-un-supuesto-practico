@@ -27,65 +27,67 @@ En la Actividad 2, trabajamos en equipo utilizando Figma para crear un Moodboard
 
 
 ### 1.3. Eyetracking
+En la Actividad 3, de manera grupal, pudimos poner en práctica un análisis mediante EyeTracking de distintas páginas de dispositivos móviles. Para ello utilizamos la herramienta GazeMapping, que tras calibrar la mirada, nos permitió ir determinando los puntos de interés y guardar los datos recabados en forma de JSON.
+**Valoracion de la calidad:** Mi contribución en esta actividad grupal consistió en proporcionar el portátil con webcam para poder utilizar correctamente la herramienta comentada anteriormente, y aplicarla a las distintas páginas webs de móviles como Apple o Xiaomi, que fuimos probando entre todos para obtener un mapa de calor a partir de la mirada y de los puntos de interés que cada miembro del grupo fuimos seleccionando. Me pareció muy interesante esta actividad, sobre todo porque antes no conocía la existencia de herramientas tan interesantes como puede ser el control de la mirada para determinar si los puntos que consideramos destacables en nuestra página web, realmente están cumpliendo con su labor o si, por errores de diseño, se le está dando más relevancia a elementos secundarios para nosotros.
 
-### 1.3. Evaluación heurística con Heurio
+### 1.4. Informe de usabilidad con Heurio
 
-Para la Actividad 4, el objetivo era auditar la usabilidad de diferentes webs universitarias. En mi caso, realicé una inspección detallada de la página web de la Universidad de Granada (UGR) utilizando la extensión Heurio.
+Para la Actividad 4, el objetivo era auditar la usabilidad de diferentes webs universitarias. En mi caso, realicé junto con mis compañeros de grupo una inspección detallada de la página web de la Universidad de Granada (UGR) utilizando la extensión Heurio.
 
-Durante el análisis, detecté problemas graves de arquitectura de la información: la navegación exigía una cantidad de clics totalmente innecesaria para encontrar información básica, la interfaz estaba extremadamente sobrecargada de contenido y existían pequeños descuadres visuales causados por una mala gestión del CSS. Fui documentando estos errores mediante marcas ("post-its" virtuales) clasificándolos según su severidad (leves, moderados, críticos) y relacionándolos con guidelines de Nielsen.
-**Valoración de la calidad:** Esta fue una de mis aportaciones más destacadas en la teoría. Pude aplicar mi ojo crítico y mis conocimientos técnicos de CSS para identificar no solo el problema de usabilidad (la sobrecarga), sino también el origen técnico del fallo visual. Me proporcionó una estructura metodológica para argumentar por qué una interfaz es "poco usable" basándome en heurísticas reconocidas.
+Durante el análisis, detecté problemas importantes: la navegación exigía una cantidad de clicks grande e innecesaria para encontrar información básica, la interfaz estaba sobrecargada de contenido y existían pequeños descuadres visuales causados por una mala gestión del CSS. Fuimos documentando estos errores con unas marcas, clasificándolos según su importancia (leves, moderados, críticos) y relacionándolos con guidelines de Nielsen.
+**Valoración de la calidad:** Esta fue una de mis aportaciones más destacadas en la teoría. Pude aplicar mi visión, ya un poco más desarrollada sobre el diseño, y mis conocimientos técnicos de CSS y páginas web para identificar no solo el problema de usabilidad (la sobrecarga), sino también el posible origen técnico del fallo visual. Me proporcionó un método para argumentar por qué una interfaz es poco usable, basándome en heurísticas reconocidas.
 
-### 1.4. Accesibilidad e Inclusión
+### 1.5. Accesibilidad e Inclusión
 
-La Actividad 5 me llevó a evaluar el nivel de accesibilidad de webs institucionales. Utilicé herramientas automáticas como WAVE para buscar errores de contraste y cumplimiento de las pautas WCAG. Además, apliqué el simulador Funkify para experimentar la web bajo diferentes condiciones, como la visión borrosa (Blurry Bianca), el daltonismo (Color Carl) o problemas motrices (Trembling Trevor).
-**Valoración de la calidad:** Esta actividad cambió mi perspectiva sobre el desarrollo frontend. Comprendí que el diseño UI debe ser inherentemente robusto y perceptible para todos los usuarios. Mi análisis detallado demostró una comprensión profunda de que la accesibilidad no es un añadido, sino un pilar estructural del desarrollo de software.
+La Actividad 5 me llevó a evaluar el nivel de accesibilidad de webs institucionales. Utilicé herramientas (extensiones de google) como WAVE para buscar errores de contraste y cumplimiento de las pautas WCAG. Además, apliqué el simulador Funkify para experimentar la web bajo diferentes condiciones, como la visión borrosa, el daltonismo (visión alterada de las letras) o problemas motrices (temblor del cursor).
+**Valoración de la calidad:** Esta actividad cambió mi perspectiva sobre el desarrollo frontend. Comprendí que el diseño UI debe estar adaptado para todos los usuarios. Nuestro análisis detallado demostró una comprensión de que la accesibilidad no es un añadido, sino un pilar estructural del desarrollo de software.
 
-### 1.5. Portfolio Neo Brutalism
+### 1.6. Portfolio Neo Brutalism
 
-En la Actividad 6, diseñé un portfolio personal en Figma adoptando la tendencia del *Neo Brutalism*. A diferencia del brutalismo web clásico, que suele sacrificar la usabilidad por la disrupción estética, el neobrutalismo mantiene el contraste y la rebeldía sin perder de vista la experiencia del usuario.
+En la Actividad 6, diseñé un portfolio personal en Figma adoptando la tendencia del *Neo Brutalism*. A diferencia del brutalismo web clásico, que suele sacrificar la usabilidad por la disrupción estética, el neobrutalismo mantiene el contraste y da un toque original sin perder de vista la experiencia del usuario.
 
-Llegué a completar el diseño íntegramente en Figma, incorporando todos los elementos requeridos: *splash screen* animada, *hero section* con mi presentación, tarjetas para proyectos y habilidades, y botones con estados *hover/press*. Apliqué estrictamente las guías de estilo: colores de alta saturación, sombras sólidas y geométricas al 100% de opacidad sin difuminar (desplazadas a 45 grados), trazos gruesos negros para delimitar componentes, y tipografías *sans-serif* de gran tamaño y personalidad.
-**Valoración de la calidad:** Mi nivel de trabajo en esta práctica fue excelente. Demostré un dominio avanzado de Figma y una gran capacidad para adaptar mi estilo personal a unas directrices visuales muy marcadas, logrando un diseño asimétrico y experimental, pero manteniendo una jerarquía visual clara que aseguraba que el usuario supiera exactamente dónde hacer clic.
+Llegué a completar el diseño íntegramente en Figma, incorporando todos los elementos requeridos: *splash screen* animada, *hero section* con mi presentación, tarjetas para proyectos y habilidades, y botones con estados *hover/press*. Apliqué estrictamente las guías de estilo: colores de alta saturación, sombras sólidas y geométricas al 100% de opacidad sin difuminar, trazos gruesos negros para delimitar componentes, y tipografías *sans-serif* de gran tamaño y personalidad.
+**Valoración de la calidad:** En esta actividad, como usamos Figma Make, pude centrarme en adaptar mi estilo personal a las directrices visuales marcadas que se nos pedían, logrando un diseño asimétrico y experimental, pero manteniendo una jerarquía visual clara que permitía mostrar mi portfolio sin que el usuario se perdiese. Sí es verdad que pienso que había aspectos que se podían mejorar, pues por la forma en que lo hice, sacrifiqué el poner cierta información que quizás también era relevante para el portfolio y que acabé resumiendo para no sobrecargarlo aún más.
 
 ---
 
-## 2. Aportaciones destacables en el contexto de prácticas (Caso de Estudio: Punto Café)
+## 2. Aportaciones destacables en el contexto de prácticas (Caso de estudio: Punto Café, Grupo: Leche con Café )
 
-El bloque central de mi experiencia en la asignatura se ha consolidado a través de las prácticas de laboratorio, donde, junto a mi compañero Juan Carlos, hemos desarrollado desde cero el UX Case Study del proyecto **"Punto Café"**. Se trata de una plataforma web/móvil diseñada para descubrir cafeterías de especialidad (tomando como referencia inicial "Despiertoo Speciality Coffee" en Granada) y facilitar tanto la visita física como la compra de café online. Mi implicación en todas las fases del diseño ha sido total y muy profunda.
+El bloque central de mi experiencia en la asignatura se ha consolidado a través de las prácticas, donde, junto a mi compañero Juan Carlos, hemos desarrollado desde cero el UX Case Study del proyecto **"Punto Café"**. Se trata de una plataforma web móvil diseñada para descubrir cafeterías de especialidad (tomando como referencia inicial "Despiertoo Speciality Coffee" en Granada) y facilitar tanto la visita física como la compra de café online. Mi implicación en todas las fases del diseño ha sido total y muy profunda.
 
 ### 2.1. Investigación de usuarios y análisis competitivo
 
 Iniciamos con un enfoque cualitativo para entender las motivaciones y frustraciones de los consumidores de café. Realizamos un *Competitive Analysis* contrastando el modelo de negocio, la tecnología y la usabilidad de dos alternativas: "Perspectives Cafe" (orientada al público general y la experiencia física) y "Coffee 1931" (centrada en la venta online especializada).
 
 Posteriormente, definimos dos *Personas* clave: Álvaro, un técnico de 32 años que necesita información rápida sin fricciones, e Inés, una estudiante de 22 años que busca seguridad y buen ambiente para quedar. Elaboramos sus respectivos *Journey Maps* para detectar puntos de dolor, confirmando que la falta de información inmediata en la versión móvil genera altos niveles de abandono.
-**Valoración de la calidad:** Mi contribución analítica fue decisiva para asentar las bases del proyecto. Logramos traducir datos abstractos en necesidades de usuario reales, reformulando el problema mediante un *Feedback Capture Grid* y un *Scope Canvas* para definir nuestra propuesta de valor: una experiencia *mobile-first* unificada.
+**Valoración de la calidad:** Logramos traducir datos abstractos en necesidades de usuario reales, reformulando el problema mediante un *Feedback Capture Grid* y un *Scope Canvas* para definir nuestra propuesta de valor: una experiencia *mobile-first* unificada.
 
 ### 2.2. Diseño de Arquitectura e Interfaz (Figma)
 
-La fase de diseño representó uno de mis mayores aportes. Definimos la Arquitectura de la Información (*Sitemap* y *Labelling*), optando por evitar anglicismos y utilizar términos claros en castellano para reducir la carga cognitiva.
+La fase de diseño representó uno de mis mayores aportes. Definimos la Arquitectura de la Información (*Sitemap* y *Labelling*).
 
 A partir de bocetos a mano, desarrollamos los *Wireframes* en baja fidelidad y, posteriormente, escalamos el diseño construyendo un *Design System* completo en Figma. Definí y diseñé componentes UI reutilizables (botones, tarjetas de producto, formularios) y elaboré un prototipo navegable íntegro. Establecimos unas *Guidelines* claras: barra superior unificada, tarjetas de contenido para agilizar el escaneo visual, y el uso de botones con un color lavanda suave para guiar las acciones principales sin saturar la interfaz.
-**Valoración de la calidad:** El trabajo realizado en Figma destaca por su limpieza, coherencia y enfoque funcional. Pude aplicar directamente mis inquietudes sobre diseño de interfaces, creando un sistema visual equilibrado (con espacios amplios y baja densidad visual) que responde perfectamente a las heurísticas de usabilidad evaluadas durante la teoría.
+**Valoración de la calidad:** El trabajo realizado en Figma destaca por su limpieza y enfoque funcional. Pude aplicar directamente mis inquietudes sobre diseño de interfaces, creando un sistema visual equilibrado (con espacios amplios y baja densidad visual). Este trabajo fue un verdadero caso de prueba de error, pues el concepto de usabilidad y de sencillez fue algo que nos costó entender al principio, pero que poco a poco fuimos construyendo y mejorando hasta obtener la página final.
 
 ### 2.3. Evaluación con Usuarios (A/B Testing, SUS y Eye Tracking)
 
 Para validar nuestra propuesta, realizamos pruebas exhaustivas comparando "Punto Café" (Caso A) con el proyecto "Umai!" (Caso B).
 
-* **A/B Testing en Maze:** Configuramos tareas clave (buscar producto, consultar local, iniciar compra/reserva). En "Punto Café", logramos una tasa de éxito del 100% y un abandono del 0%, demostrando una navegación ligeramente más rápida y directa que la competencia.
+* **A/B Testing en Maze:** Configuramos tareas clave (buscar producto, consultar local, iniciar compra/reserva). En "Punto Café", logramos una navegación ligeramente más rápida y directa que la competencia.
 
 
-* **Cuestionario SUS:** Evaluamos la percepción de usabilidad, donde "Punto Café" obtuvo una puntuación media de 81,3 (Aceptable tipo B / Excelente), superando los 75 puntos de "Umai!".
+* **Cuestionario SUS:** Evaluamos la percepción de usabilidad de ambas prácticas.
 
 
-* **Eye Tracking:** Implementamos la herramienta GazeMapping para generar mapas de calor y *gaze plots*, verificando que nuestros botones principales captaban la atención de manera óptima, a diferencia de algunos elementos visuales en "Umai!" que competían y restaban protagonismo a las acciones principales.
-**Valoración de la calidad:** Mi rol en la evaluación fue riguroso y metódico. Analizar las métricas de clics erróneos y la duración media me permitió comprender de primera mano cómo el diseño visual impacta directamente en la eficiencia de la tarea, aportando un alto valor crítico al *Usability Report* final.
+* **Eye Tracking:** Implementamos la herramienta GazeMapping para generar mapas de calor, verificando que nuestros botones principales captaban la atención de manera óptima, a diferencia de algunos elementos visuales en "Umai!" que competían y restaban protagonismo a las acciones principales.
+**Valoración de la calidad:** Mi rol en la evaluación fue riguroso. Analizar las métricas de clics erróneos y la duración media me permitió comprender de primera mano cómo el diseño visual impacta directamente en la eficiencia de la tarea, aportando un alto valor crítico al *Usability Report* final. Además pude darme cuenta de que tanto a la práctica de los compañeros como a la nuestra, aún les quedaba un largo recorrido de mejora en diversos aspectos como la usabilidad o la experiencia de usuario.
 
 
 
 ### 2.4. Exportación a React
 
-Como culminación del proyecto, lideré la exportación del prototipo a un entorno web real utilizando **React con Vite**. Implementé una versión funcional basada en componentes (Header, GoldButton, ProductCard) manteniendo la estructura y *guidelines* definidas en Figma.
-**Valoración de la calidad:** Esta aportación es especialmente relevante dado mi perfil. Supo ser el puente perfecto entre mis habilidades autodidactas en desarrollo frontend y la metodología UX estructurada en la asignatura. Demostré que no solo sé idear y dibujar interfaces, sino que poseo la capacidad técnica para materializarlas en código limpio y escalable, preservando intacta la experiencia de usuario diseñada.
+Como culminación del proyecto, lideré la exportación del prototipo a un entorno web real utilizando **React con Vite**. Implementé una versión funcional basada en componentes manteniendo la estructura y *guidelines* definidas en Figma.
+**Valoración de la calidad:** Esta aportación es especialmente relevante dado mi perfil. Con esto demostré que no solo sé idear y dibujar interfaces, sino que poseo la capacidad técnica para materializarlas en código, preservando la experiencia de usuario diseñada.
 
 ---
 
@@ -95,14 +97,14 @@ Aunque el grueso de mi experiencia UX se ha forjado en esta asignatura, existen 
 
 ### 3.1. Implementación web (Sistemas de Información Basados en Web)
 
-En la asignatura de SIBW, desarrollamos una página web completa para un ayuntamiento. En esa ocasión, el diseño ya venía dado y mi labor se centró exclusivamente en la implementación técnica mediante React. Debo admitir que el diseño proporcionado era algo deficiente y obsoleto ("cutre"). Sin embargo, gracias a los conocimientos adquiridos actualmente en DIU, ahora soy perfectamente capaz de identificar *por qué* ese diseño fallaba (problemas de contraste, mala jerarquía de la información, flujos de navegación poco intuitivos) y cómo rediseñarlo completamente antes de tirar una sola línea de código. Esta experiencia subraya mi evolución: he pasado de ser un mero ejecutor de código frontend a un desarrollador capaz de cuestionar y mejorar la experiencia de usuario subyacente.
+En la asignatura de SIBW, desarrollamos una página web completa para un ayuntamiento. En esa ocasión, el diseño ya venía dado y mi labor se centró exclusivamente en la implementación técnica mediante tecnologías web como HTML, CSS, JS y PHP. Debo admitir que el diseño proporcionado era algo deficiente. Sin embargo, gracias a los conocimientos adquiridos actualmente en DIU, ahora soy capaz de identificar por qué ese diseño fallaba (problemas de contraste, flujos de navegación poco intuitivos) y cómo rediseñarlo. Esta experiencia se añade a mi evolución: he pasado de ser un programador de código a un desarrollador capaz de cuestionar y mejorar la experiencia de usuario subyacente.
 
 ### 3.2. Desarrollo 3D (Sistemas Gráficos)
 
-Por otro lado, en la asignatura de Sistemas Gráficos, desarrollé un laberinto interactivo en 3D utilizando la biblioteca Three.js. Aunque a simple vista pueda parecer una disciplina puramente técnica o matemática, el desarrollo de entornos tridimensionales está íntimamente ligado a la experiencia de usuario espacial. Diseñar mallas, texturas y la propia generación procedimental de la geometría me obligó a pensar en cómo el usuario percibe la profundidad, cómo se orienta dentro de un entorno virtual y cómo interactúa con elementos espaciales. Este proyecto fortaleció enormemente mis habilidades de diseño visual y reafirmó mi gran interés por el campo de la computación gráfica, demostrando que la usabilidad y la creación de interfaces trascienden el clásico formato 2D de las páginas web.
+Por otro lado, en la asignatura de Sistemas Gráficos, desarrollé un laberinto interactivo en 3D utilizando la biblioteca Three.js. Aunque a simple vista pueda parecer una disciplina puramente técnica o matemática, el desarrollo de entornos tridimensionales está íntimamente ligado a la experiencia de usuario espacial. Diseñar mallas, texturas y la propia generación procedimental de la geometría me obligó a pensar en cómo el usuario percibe la profundidad, cómo se orienta dentro de un entorno virtual y cómo interactúa con elementos espaciales. Además, diseñamos una sencilla interfaz de introducción al juego, con HTML y CSS principalmente, en la que pudimos aplicar algunos de los conocimientos (por ejemplo de la teoría de colores vista en DIU). Este proyecto fortaleció enormemente mis habilidades de diseño visual, demostrando que la usabilidad y la creación de interfaces también están más allá del clásico formato 2D de las páginas web.
 
 ---
 
 ## Conclusión
 
-A modo de autoevaluación, considero que mi progreso en el área de UI/UX a lo largo del curso ha sido sobresaliente. He pasado de tener una apreciación puramente estética de las interfaces a dominar un proceso metodológico completo: desde la empatía inicial con el usuario y la investigación etnográfica, pasando por el diseño de sistemas visuales robustos en Figma, hasta la evaluación empírica mediante A/B Testing y Eye Tracking. Esta asignatura ha enlazado de manera brillante mis pasiones técnicas y de diseño, dotándome de las herramientas necesarias para construir software que no solo funcione bien a nivel arquitectónico, sino que ofrezca experiencias digitales accesibles, eficientes y verdaderamente centradas en las personas.
+A modo de autoevaluación, considero que mi progreso en el área de UI/UX a lo largo del curso ha sido sobresaliente. He pasado de tener una apreciación puramente estética de las interfaces a dominar un proceso metodológico completo: desde la empatía inicial con el usuario y la investigación etnográfica, pasando por el diseño de sistemas visuales en Figma, hasta la evaluación empírica mediante A/B Testing y Eye Tracking. Esta asignatura ha enlazado mis intereses técnicos y de diseño, proporcionandome las herramientas necesarias para construir software que no solo funcione bien a nivel arquitectónico, sino que ofrezca experiencias digitales accesibles, eficientes y verdaderamente centradas en las personas.

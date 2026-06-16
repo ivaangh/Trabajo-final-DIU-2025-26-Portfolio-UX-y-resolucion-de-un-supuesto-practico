@@ -211,6 +211,7 @@ Para asegurar la accesibilidad ergonómica (uso con el pulgar), la navegación p
 * **Filtros Rápidos (Chips):** Botones en formato "píldora" para filtrar rápidamente por categorías esenciales: "Fruta", "Verdura", "Granel", "Novedades".
 * **Grid de Productos:** Uso de tarjetas (*Cards*) asimétricas para romper la monotonía visual.
 
+![Mockup Pantalla Inicio](img/mockup-inicio.png) (mockup-inicio.png)
 
 2. **Pantalla de Transparencia (Los Productores):**
 * Un directorio visual de las huertas participantes. Al hacer clic, se abre una vista de detalle con una breve bio del agricultor, fotografías del entorno de cultivo y los productos exactos que ofrece en esta edición.

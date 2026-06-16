@@ -216,7 +216,7 @@ Para asegurar la accesibilidad ergonómica (uso con el pulgar), la navegación p
 
 ![Mockup Pantalla Inicio](img/mockup-inicio2.png)
 
-![Mockup Pantalla Inicio](video-inicio/mockup-inicio-menu-fijo.webm)
+![Video Mockup Pantalla Inicio - Demostración menú fijo en app móvil](video-inicio/mockup-inicio-menu-fijo.webm)
 
 2. **Pantalla de Producto (información detallada):**
 * Al hacer clic sobre un producto de la pantalla de inicio, se abre una vista de detalle con una breve descripción del producto, fotografías del mismo, el tipo de cultivo y una mención al huerto de dónde provienen.

@@ -30,6 +30,7 @@ En la Actividad 2, trabajamos en equipo utilizando Figma para crear un Moodboard
 
 ### 1.3. Eyetracking
 En la Actividad 3, de manera grupal, pudimos poner en práctica un análisis mediante EyeTracking de distintas páginas de dispositivos móviles. Para ello utilizamos la herramienta GazeMapping, que tras calibrar la mirada, nos permitió ir determinando los puntos de interés y guardar los datos recabados en forma de JSON.
+
 **Valoracion de la calidad:** Mi contribución en esta actividad grupal consistió en proporcionar el portátil con webcam para poder utilizar correctamente la herramienta comentada anteriormente, y aplicarla a las distintas páginas webs de móviles como Apple o Xiaomi, que fuimos probando entre todos para obtener un mapa de calor a partir de la mirada y de los puntos de interés que cada miembro del grupo fuimos seleccionando. Me pareció muy interesante esta actividad, sobre todo porque antes no conocía la existencia de herramientas tan interesantes como puede ser el control de la mirada para determinar si los puntos que consideramos destacables en nuestra página web, realmente están cumpliendo con su labor o si, por errores de diseño, se le está dando más relevancia a elementos secundarios para nosotros.
 
 ### 1.4. Informe de usabilidad con Heurio
@@ -65,6 +66,7 @@ El bloque central de mi experiencia en la asignatura se ha consolidado a través
 Iniciamos con un enfoque cualitativo para entender las motivaciones y frustraciones de los consumidores de café. Realizamos un *Competitive Analysis* contrastando el modelo de negocio, la tecnología y la usabilidad de dos alternativas: "Perspectives Cafe" (orientada al público general y la experiencia física) y "Coffee 1931" (centrada en la venta online especializada).
 
 Posteriormente, definimos dos *Personas* clave: Álvaro, un técnico de 32 años que necesita información rápida sin fricciones, e Inés, una estudiante de 22 años que busca seguridad y buen ambiente para quedar. Elaboramos sus respectivos *Journey Maps* para detectar puntos de dolor, confirmando que la falta de información inmediata en la versión móvil genera altos niveles de abandono.
+
 **Valoración de la calidad:** Logramos traducir datos abstractos en necesidades de usuario reales, reformulando el problema mediante un *Feedback Capture Grid* y un *Scope Canvas* para definir nuestra propuesta de valor: una experiencia *mobile-first* unificada.
 
 ### 2.2. Diseño de Arquitectura e Interfaz (Figma)

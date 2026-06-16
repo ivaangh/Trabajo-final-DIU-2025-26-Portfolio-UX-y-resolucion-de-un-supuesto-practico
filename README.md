@@ -1,4 +1,4 @@
-# Trabajo-final-DIU-2025-26-Portfolio-UX-y-resolucion-de-un-supuesto-practico
+<img width="927" height="889" alt="image" src="https://github.com/user-attachments/assets/bbeb07c0-36b4-49e4-8dbb-5c46352ccbda" /># Trabajo-final-DIU-2025-26-Portfolio-UX-y-resolucion-de-un-supuesto-practico
 Repositorio dedicado a la realización del trabajo final de la asignatura de Diseño de Interfaces de Usuario, curso 2025/26: Portfolio UX y resolucion de un supuesto practico
 
 # PARTE I: MI EXPERIENCIA UX
@@ -148,6 +148,9 @@ A pesar de sus fortalezas emocionales, la plataforma presenta deficiencias objet
 * **Prevención de errores y flexibilidad:** El sistema de selección de productos para cestas personalizadas carece de restricciones visuales claras. El usuario puede cometer errores al calcular el peso o el importe mínimo, dándose cuenta del fallo únicamente al intentar finalizar la compra (en la pantalla de *checkout*). Esto genera alta frustración y aumenta la tasa de abandono.
 * **Visibilidad del estado del sistema:** El feedback al realizar acciones críticas, como añadir un producto al carrito, es excesivamente sutil. No se emplean notificaciones flotantes ni cambios de estado evidentes en el icono de la cesta, obligando al usuario a verificar manualmente si la acción se ha completado.
 * **Accesibilidad (WAVE):** Se identifican problemas severos de contraste visual. Los textos descriptivos en tonos grises y claros sobre fondos a su vez claros o blancos, hacen que no resalten como se esperaría. Además, la ausencia de etiquetas `ARIA` en botones dinámicos, la ausencia en algunos casos de textos alternativos a imágenes y algunos botones y enlaces vacíos penaliza la experiencia de los usuarios, sobre todo de los que dependen de lectores de pantalla.
+
+![Ejemplo de uso de la herramienta WAVE](img/ejemplo-uso-wave.png)
+
 * **Adaptación a Dispositivos (Responsiveness):** En resoluciones móviles (*viewports* menores a 768px), el diseño sufre problemas estructurales. Las áreas de interacción táctil de los botones de paginación y filtros son inferiores a los 44x44 píxeles recomendados por las guías de diseño móvil, provocando errores de pulsación ("fat-finger syndrome").
 
 ### 4. Propuestas de (re)diseño y mejoras
